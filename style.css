@@ -1,0 +1,48 @@
+body{
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 30px;
+    color: #777;
+    background: #4CAF50;
+    margin-top: 150px;
+}
+
+.todo-app{  
+        width: 300px;
+        margin-right: auto;
+        margin-top: 150px;
+        margin-left: auto;
+        display: block;
+        background: #F9F9F9;
+        padding: 25px;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.todo-input label{
+    width: 98%;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+}
+
+
+.todo-input textarea{
+    width: 97%;
+    /* padding: 6px; */
+    padding-top: 15px;
+    padding-left: 15px;
+    /* font-size: 14px; */
+}
+
+
+.todo-form button{
+    cursor: pointer;
+    width: 150%;
+    border: none;
+    background: #4CAF50;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
